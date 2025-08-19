@@ -122,6 +122,7 @@ def verificar_templates():
         "fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx": os.path.join(os.path.dirname(__file__), "fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx"),
         "CARTA VIABILIDADA - TESTE.docx": os.path.join(os.path.dirname(__file__), "CARTA VIABILIDADA - TESTE.docx"),
         "Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx": os.path.join(os.path.dirname(__file__), "Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx")
+    }
     
     templates_encontrados = {}
     for nome, caminho in templates.items():
@@ -446,3 +447,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
