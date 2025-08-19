@@ -117,12 +117,11 @@ def extrair_municipio(endereco_completo):
 def verificar_templates():
     """Verifica se os templates necessários existem na pasta atual."""
     templates = {
-        "Memorial descritivo - Teste.docx": r"D:\Estudos\IA\TENTATIVA_DE_SITE\Memorial descritivo - Teste.docx",
-        "PROCURAÇÃO - TESTE.docx": r"D:\Estudos\IA\TENTATIVA_DE_SITE\PROCURAÇÃO - TESTE.docx",
-        "fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx": r"D:\Estudos\IA\TENTATIVA_DE_SITE\fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx",
-        "CARTA VIABILIDADA - TESTE.docx": r"D:\Estudos\IA\TENTATIVA_DE_SITE\CARTA VIABILIDADA - TESTE.docx",
-        "Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx": r"D:\Estudos\IA\TENTATIVA_DE_SITE\Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx"
-    }
+        "Memorial descritivo - Teste.docx": os.path.join(os.path.dirname(__file__), "Memorial descritivo - Teste.docx"),
+        "PROCURAÇÃO - TESTE.docx": os.path.join(os.path.dirname(__file__), "PROCURAÇÃO - TESTE.docx"),
+        "fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx": os.path.join(os.path.dirname(__file__), "fazer-termo-de-responsabilidade-para-uso-geracao-propria-pessoa-fisica -TESTE.docx"),
+        "CARTA VIABILIDADA - TESTE.docx": os.path.join(os.path.dirname(__file__), "CARTA VIABILIDADA - TESTE.docx"),
+        "Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx": os.path.join(os.path.dirname(__file__), "Termo de responsabilidade de não Utilização de Geração Própria - TESTE.docx")
     
     templates_encontrados = {}
     for nome, caminho in templates.items():
@@ -445,4 +444,5 @@ def main():
             st.error("❌ Nenhum documento foi processado. Verifique se os templates estão corretos.")
 
 if __name__ == "__main__":
+
     main()
