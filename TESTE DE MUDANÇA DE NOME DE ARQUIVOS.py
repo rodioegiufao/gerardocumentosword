@@ -61,12 +61,22 @@ CLIENTES = {
         "CPF": "000.934.647-38",
         "DOMICILIO": "Av. Dr. Theomario Pinto da Costa, n° 192, Chapada, Manaus/AM"
     },
+    "PREFEITURA MUNICIPAL DE SÃO LUIZ DO ANAUÁ/RR": {
+        "CNPJ": "04.056.230/0001-23",
+        "END_SEDE": "Avenida Macapá, Nº 1000, Centro, CEP-69370-000, São Luiz do Anauá/RR",
+        "RESPONSAVEL": "Isaac Thomas Santos e Santos",
+        "NACIONALIDADE": "brasileiro",
+        "ESTADO_CIVIL": "Solteiro",
+        "IDENTIDADE": "15.212-3",
+        "CPF": "058.834.373-03",
+        "DOMICILIO": "Rua Jose Vieira Sampaio, Nº 12, Centro, CEP: 69.378-000, Caroebe/RR"
+    },
     "INSTITUTO DE PREVIDÊNCIA SOCIAL DO ESTADO DE RORAIMA - IPER": {
         "CNPJ": "03.491.063/0001-86",
         "END_SEDE": "Rua Araújo Filho, 823 - Centro, Boa Vista - RR, CEP: 69.301-090",
         "RESPONSAVEL": "Rafael David Aires Alencar",
         "NACIONALIDADE": "brasileiro",
-        "ESTADO_CIVIL": "Casadp(a)",
+        "ESTADO_CIVIL": "Casado(a)",
         "IDENTIDADE": "15.912-4",
         "CPF": " 512.997.122-15",
         "DOMICILIO": "Rua Araújo Filho, 823 - Centro, Boa Vista - RR, CEP: 69.301-090"
@@ -447,4 +457,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
